@@ -80,12 +80,13 @@ content delivery network aim to deliver fast and securely.
 It is a html like syntax but not html inside JS. JSX uses `React.createElement()` behind the scene.JSX element can only have 1-parent.
 > ### `const Heading=<h1> hi jsx </hi>` babel covert this to `const Heading=React.createElememt('h1',{},"hi jsx")`.
 > ### in JSX we can write any piece of JS_Expression_code using `{js-expression goes here}`.
-> ###
-> ###
-> ###
-> ###
-> ###
-> ###
+> ### {var-name}
+> ### {js-expression}
+> ### {function()}
+> ### {react element}
+> ### <ComponentName />
+> ### <ComponentName></ComponentName>
+> ### {js-comment}
 
 # create-react-app
 `npx create-react-app my-app`
@@ -95,21 +96,27 @@ It is a html like syntax but not html inside JS. JSX uses `React.createElement()
 > ### everything is component in react.
 > ### react components are of 2-types. `class component` & `functional component`.
 > ### functional component is normal JS function. 
-> ```
+
+>
 > const ComponentName=()=>{
 
-    return (<> 
+    return (
+           <> 
              <h1> some JSX </h1>
-             </>
+            </>
              );   
 };
+
+
+
 > `()` in return used to wrap up jsx code.
 > <></> it is call react fragment.
 
 
 # basics about react
 
-``` const assign=( <h1> some JSX </h1>); 
+```
+ const assign=( <h1> some JSX </h1>); 
     const Comp=()=>{
         return(
             <>{assign}</>

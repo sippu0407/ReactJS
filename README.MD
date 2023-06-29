@@ -40,4 +40,4 @@ To make a simple line use 3 dashes or asterisk.
 
 
 
-#git rm --cached FILENAME
+#git rm --cached FILENAME-with-path

@@ -35,8 +35,8 @@ to build full fledged app only react library is not sufficient,we need other pac
 
 # parcel
 
-> ## create mini server for us so, now we can do `localhost:port`
-> ## create mini server for us so, now we can do `localhost:port`
+> ## create mini server for us so, now we can do `localhost:port`. for this run `npx parcel index.html`, parcel will create a build file and a server and run the application at your local machine.
+> ## parcel allow us to auto-run script. `npx parcel index.html` it is also called **HMR** hot module replacement .
 > ## create mini server for us so, now we can do `localhost:port`
 > ## create mini server for us so, now we can do `localhost:port`
 > ## create mini server for us so, now we can do `localhost:port`
@@ -53,6 +53,16 @@ content delivery network aim to deliver fast and securely.
 > ### 1. slower as compared to local storage.
 > ### 2. we need to keep on updating link as newer version.
 
+
+# "react" import
+
+> `import React from "react"`
+
+# "react-dom" import
+
+> `import ReactDom from "react-dom/client"`
+
+>browser does not know import till we mark our script type as module i.e> `<script type="module" src="./App.js-or any path"></script>`
 
 
 

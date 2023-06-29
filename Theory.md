@@ -72,5 +72,57 @@ content delivery network aim to deliver fast and securely.
 # transitive dependency
 > example > parcel uses different packages to achieve what it does.
 
-#babble
+# babel
 > it does pollyfill for us. that is convert the code to the older code.
+
+# JSX
+
+It is a html like syntax but not html inside JS. JSX uses `React.createElement()` behind the scene.JSX element can only have 1-parent.
+> ### `const Heading=<h1> hi jsx </hi>` babel covert this to `const Heading=React.createElememt('h1',{},"hi jsx")`.
+> ### in JSX we can write any piece of JS_Expression_code using `{js-expression goes here}`.
+> ###
+> ###
+> ###
+> ###
+> ###
+> ###
+
+# create-react-app
+`npx create-react-app my-app`
+
+# react components
+
+> ### everything is component in react.
+> ### react components are of 2-types. `class component` & `functional component`.
+> ### functional component is normal JS function. 
+> ```
+> const ComponentName=()=>{
+
+    return (<> 
+             <h1> some JSX </h1>
+             </>
+             );   
+};
+> `()` in return used to wrap up jsx code.
+> <></> it is call react fragment.
+
+
+# basics about react
+
+``` const assign=( <h1> some JSX </h1>); 
+    const Comp=()=>{
+        return(
+            <>{assign}</>
+        );
+    }
+```
+> ### here assign will be replaced by jsx inside it
+
+
+# how to render functional component
+
+`root.render(<ComponentName/>)`
+
+
+
+

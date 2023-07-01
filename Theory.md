@@ -130,6 +130,10 @@ It is a html like syntax but not html inside JS. JSX uses `React.createElement()
 
 `root.render(<ComponentName/>)`
 
+# Faker
+
+>
+> 
 
 
 

@@ -8,7 +8,7 @@
 > ### configure taiwindcss.config  `content: ["./src/**/*.{html,js}"]`
 > ### w-[92%] take 92% of available width.
 > ### import companyLogo from './path/to/logo.jpg';
-> ### <img src={companyLogo} alt="BigCo Inc. logo"/>
+> ### <img src={companyLogo} alt=""/>.
 > ### onClick={shoot}  instead of onClick="shoot()".
 > ### onClick={() => shoot("Goal!")}
 
@@ -18,36 +18,9 @@
 >             `const eventMenu=(e)=>{
 
                              console.log("hi");
-                             
+
                 }`           
 > 
-> 
-> ###
-> ###
-> ###
-> ###
 
-> ###
-> ###
-> ###
-> ###
-> ###
-> ###
-> ###
-> ###
 
-> ###
-> ###
-> ###
-> ###
-> ###
-> ###
-> ###
-> ###
-
-> ###
-> ###
-> ###
-> ###
-> ###
-> ###
+# NavBarNew 

@@ -1,4 +1,4 @@
-# react routing
+### react routing
 > using this we will find our page.
 > we have to keep the router always below the component.
 > if the wrong url is provided the react-router-dom will give us default error page.
@@ -19,7 +19,9 @@
 > `import {link} from "react-router-dom"`
 > `import {Outlet} from "react-router-dom"`
 > `import {useParams} from "react-router-dom"`
-> 
+>  `import {useRouterError} from "react-router-dom"`
+>
+>
 > ## example App.js -----> about.js
 
 > ### App.js
@@ -29,7 +31,7 @@
         path:"/xyz",
         element:<About/>
         error element: <error/>
-        children:[{ path:"xyz/",
+        children:[{ path:"xyz",
                     element:<About/>
                     error element: <error/>},
                    {}
@@ -54,3 +56,5 @@
 
 
   > ```
+
+  > ### how to stop printing of parent element in outlet

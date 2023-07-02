@@ -126,14 +126,19 @@ It is a html like syntax but not html inside JS. JSX uses `React.createElement()
 > ### here assign will be replaced by jsx inside it
 
 
-# how to render functional component
+## how to render functional component
 
 `root.render(<ComponentName/>)`
 
-# Faker
+## Faker
 
->
-> 
+## most used function
+
+> ### object.values() 
+> ### await data.json()
+> ### await fetch(""+id);
+> ### useEffect( ()=>{} , [])
+> ### const {id}= useParams()
 
 
 

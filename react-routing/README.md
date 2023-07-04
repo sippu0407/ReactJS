@@ -11,6 +11,8 @@
 > our header and footer remain same only `<Outlet/>` changes every time.
 > `loading`---->`render`----->`<Outlet/>` --->`Api calls`----->`render`.
 > for dynamic routing we use `useParams`, it is also used inside the components only.
+>`<Outlet\>` component is used inside the parent to render it's child keeping the parent things as it is.
+> to render any page as it is , add its path to router and the component .
 
 > ### cmd
 > `npm i react-router-dom`
